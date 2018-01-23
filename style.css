@@ -1,0 +1,54 @@
+.botao {
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .container > .row > .biriba {
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .jumbotron > h1 {
+    text-align: center;
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .container > .row > .biriba {
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .jumbotron > h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: auto;
+  }
+}
+
+@media screen and (max-width: 295px) {
+  .container > .row > .biriba {
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .jumbotron > h1 {
+    text-align: center;
+    font-size: 25px;
+    padding: auto;
+  }
+}
